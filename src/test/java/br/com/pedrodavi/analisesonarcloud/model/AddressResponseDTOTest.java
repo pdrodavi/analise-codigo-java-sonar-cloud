@@ -14,8 +14,6 @@ class AddressResponseDTOTest {
         assertThat(AddressResponseDTO.class, allOf(
                 hasValidBeanConstructor(),
                 hasValidGettersAndSetters(),
-                hasValidBeanHashCode(),
-                hasValidBeanEquals(),
                 hasValidBeanToString()
         ));
     }
